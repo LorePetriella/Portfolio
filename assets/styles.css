@@ -202,6 +202,7 @@ left: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
 }
 
 .about-me-image{
@@ -215,8 +216,8 @@ left: 40%;
     font-size: 1.5em;
     color: black;
     font-weight: bolder;
-   position: relative;
-    top: 60px;
+    position: relative;
+    top: 30px;
     
 }
 
