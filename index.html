@@ -34,19 +34,19 @@
                 </li>
 
                 <li class="list-item">
-                    <a href="#skills" class="nav-item">Conocimientos</a>
+                    <a arial-label="Ir a la sección conocimientos" href="#skills" class="nav-item">Conocimientos</a>
                 </li>
 
                 <li class="list-item">
-                    <a href="#proyects" class="nav-item">Proyectos</a>
+                    <a arial-label="Ir a la sección proyectos" href="#proyects" class="nav-item">Proyectos</a>
                 </li>
 
                 <li>
-                    <a href="#contact" class="primary-btn">Contacto</a>
+                    <a aria-label="Contactar por correo electrónico" href="#contact" class="primary-btn">Contacto</a>
 
                 </li>
 
-               <!-- <button class="primary-btn"><a href="#contact">Contacto</button> -->
+    
       
             </ul>
 
@@ -59,7 +59,7 @@
 
 <main class="main">
 
-    <section id="hello" class="section about-me-section">
+    <section aria-label="Sección de presentación" id="hello" class="section about-me-section">
 
         <div class="about-container">
 
@@ -71,7 +71,7 @@
 
                 <p class="my-description">Desarrolladora, Psicóloga y Cinéfila</p>
                 
-                <a class="primary-btn about-btn" href="#proyects">Lo que hago</a>
+                <a aria-label="Ver más sobre proyectos realizados" class="primary-btn about-btn" href="#proyects">Lo que hago</a>
 
             </div>
        
@@ -83,7 +83,7 @@
     </section>
 
 
-    <section id="skills" class="section skills-section">
+    <section aria-label="Sección sobre conocimientos adquiridos" id="skills" class="section skills-section">
 
         <div class="section-container">
 
@@ -132,7 +132,7 @@
     </section>
 
 
-    <section class="section quote-section">
+    <section aria-label="Cita de una frase" class="section quote-section">
 
         <div class="quote-container">
            
@@ -145,7 +145,7 @@
 
 
 
-    <section id="proyects" class="section proyects-section">
+    <section aria-label="Sección para ver otros proyectos realizados" id="proyects" class="section proyects-section">
 
         <div class="section-container">
 
@@ -208,9 +208,8 @@
     
     </section>
 
-    <!-- </main> -->
-
-    <section id="contact" class="section contact-section">
+   
+    <section aria-label="Sección donde encontrar diferentes maneras de contacto" id="contact" class="section contact-section">
 
   
             <div class="section-container">
@@ -234,15 +233,15 @@
 
                             </li>
                             <li class="contact-solcialmedia-item">
-                                <a aria-hidden="true" class="contact-link" href="https://github.com/LorePetriella" target="_blank"> 
-                                    <i class="contact-icon fab fa-github-alt" title="My proyects on Github"></i>
+                                <a aria-label="Enlace a mis repositorios en Git Hub" class="contact-link" href="https://github.com/LorePetriella" target="_blank"> 
+                                    <i aria-hidden="true" class="contact-icon fab fa-github-alt" title="My proyects on Github"></i>
                                   <p id="text">LorePetriella</p>
                                 </a>
                             </li>
                             <li class="contact-solcialmedia-item">
-                                <a aria-hidden="true" class="contact-link" href="https://www.linkedin.com/in/lorena-petriella-8569159b/" target="_blank">
+                                <a aria-label="Enlace a mi Linkedin" class="contact-link" href="https://www.linkedin.com/in/lorena-petriella-8569159b/" target="_blank">
 
-                                    <i class="contact-icon fab fa-linkedin-in" title="My linkedin"></i>
+                                    <i aria-hidden="true" class="contact-icon fab fa-linkedin-in" title="My linkedin"></i>
                                    <p id="text">lorenapetriella</p>
                                 </a>
                             </li>
@@ -251,9 +250,9 @@
                             <li class="contact-solcialmedia-item">
                                   
                                
-                                <a aria-hidden="true" class="contact-link" href="mailto:lorepetriella@gmail.com">
+                                <a aria-label="Enlace a mi correo electrónico de Gmail" class="contact-link" href="mailto:lorepetriella@gmail.com">
 
-                                <i class="contact-icon fas fa-envelope" title="Send me an email"></i>
+                                <i aria-hidden="true" class="contact-icon fas fa-envelope" title="Send me an email"></i>
                                 <p id="text">lorepetriella@gmail.com</p>
                             </a>
                             </li>
@@ -277,7 +276,7 @@
                                 <div class="input-place">
                                 
                                     <label for="idname" >Nombre:*</label>
-                                    <input id="idname" type="text" name="nombre" placeholder="p.ej: Lore" required  />
+                                    <input id="idname" type="text" name="nombre" aria-label="Ingresar nombre" placeholder="p.ej: Lore" required  />
 
                                 </div>
                             
@@ -285,7 +284,7 @@
                                 <div class="input-place">
                                 
                                     <label for="idsurname">Apellido: *</label>
-                                    <input id="idsurname" type="text" name="surname" placeholder="p.ej: Petriella" required />
+                                    <input id="idsurname" type="text" name="surname" aria-label="Ingresar apellido" placeholder="p.ej: Petriella" required />
                             
                                </div>
 
@@ -294,7 +293,7 @@
                                 <div class="input-place">
                                 
                                     <label for="idemail">Email: *</label>
-                                    <input id="idemail" type="email" name="email" placeholder="p.ej: lorepetriella@gmail.com" required />
+                                    <input id="idemail" type="email" name="email" aria-label="Ingreso de dirección de correo electrónico" placeholder="p.ej: lorepetriella@gmail.com" required />
                            
                                 </div>       
                             
@@ -308,7 +307,7 @@
 
                             <div>
                                 
-                                <input class="contact-submit-btn primary-btn" type="submit" name="submit" value="Enviar" />
+                                <input class="contact-submit-btn primary-btn" type="submit" name="submit" value="Enviar" aria-label="Enviar el FOrmulario" />
                                                                                 
                             </div>
                            
@@ -352,7 +351,7 @@
            
                 <li class="socialmedia-item">
 
-                    <a class="socialmedia-icon" href="https://twitter.com/lorettavontrapp" target="_blank" > 
+                    <a aria-label="Enlace a mi Twitter" class="socialmedia-icon" href="https://twitter.com/lorettavontrapp" target="_blank" > 
                     
                          <i aria-hidden="true" class="fab fa-twitter" title="My twitter"></i>
 
@@ -363,14 +362,14 @@
 
                 <li class="socialmedia-item"> 
 
-                    <a class="socialmedia-icon" href="https://github.com/LorePetriella" target="_blank">                    
+                    <a aria-label="Enlace a Git Hub" class="socialmedia-icon" href="https://github.com/LorePetriella" target="_blank">                    
                         <i aria-hidden="true" class="fab fa-github-alt" title="My proyects on Github"></i>
                     </a> 
                 </li>
 
                 <li class="socialmedia-item">
 
-                   <a class="socialmedia-icon" href="https://www.linkedin.com/in/lorena-petriella-8569159b/" target="_blank">
+                   <a aria-label="Enlace a Linkedin" class="socialmedia-icon" href="https://www.linkedin.com/in/lorena-petriella-8569159b/" target="_blank">
 
                      <i aria-hidden="true" class="fab fa-linkedin-in" title="My linkedin"></i>
 
@@ -380,7 +379,7 @@
 
                 <li class="socialmedia-item">
  
-                     <a class="socialmedia-icon" href="mailto:lorepetriella@gmail.com" target="_blank">
+                     <a aria-label="Enlace a mi correo electrónico de Gmail" class="socialmedia-icon" href="mailto:lorepetriella@gmail.com" target="_blank">
                       
 
                      
